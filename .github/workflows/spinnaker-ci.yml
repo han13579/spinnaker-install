@@ -2,10 +2,10 @@
 
 name: Spinnaker Pre Install
 env:
-  SPINNAKER_VERSION: 1.23.6
+  SPINNAKER_VERSION: 1.26.0
   REGISTRY_URL: "gcr.io/spinnaker-marketplace/"
-  NEW_REGISTRY_URL: "registry.cn-beijing.aliyuncs.com/spinnaker-cd/"
-  NEW_REGISTRY_URL2: "docker.io/spinnakercd/"
+#  NEW_REGISTRY_URL: "registry.cn-beijing.aliyuncs.com/spinnaker-cd/"
+  NEW_REGISTRY_URL: "docker.io/yxf788/"
   TAG_FILE: "tagfile.txt"
   BOM_DIR: ".boms"
 
